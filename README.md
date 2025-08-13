@@ -10,7 +10,7 @@ Using contoso_100k dataset, a sample dataset simulating a company's sales data, 
 
 ## Clean Up Data
 
-**SQL Query**: [0_create_view.sql](Project\0_create_view.sql)
+**SQL Query**: [0_create_view.sql](Project/0_create_view.sql)
 
 - Aggregated sales and customer data into total revenue and order counts.
 - Calculated first purchase dates and extracted first purchase year for cohort analysis
@@ -19,7 +19,7 @@ Using contoso_100k dataset, a sample dataset simulating a company's sales data, 
 ## Analysis
 
 ### 1. Customer Segmentation
-**SQL Query**: [1_customer_segmentation.sql](Project\1_customer_segmentation.sql)
+**SQL Query**: [1_customer_segmentation.sql](Project/1_customer_segmentation.sql)
 - Categorized the customers into 3 groups based on their total lifetime value (LTV)
 - Calculated each group's total LTV, average customer LTV, and their share in the overall LTV distribution.
 
@@ -38,7 +38,7 @@ Using contoso_100k dataset, a sample dataset simulating a company's sales data, 
 - For low-value segment, design re-engagement campaigns and price-sensitive promotions to increase purchase frequency
 
 ### 2. Customer Revenue by Cohort
-**SQL Query**: [2_cohort_analysis.sql](Project\2_cohort_analysis.sql)
+**SQL Query**: [2_cohort_analysis.sql](Project/2_cohort_analysis.sql)
 
 - Calculated the total revenue and customer count per cohorts
 - Customers were grouped into cohorts based on the year of their first purchase
@@ -65,7 +65,7 @@ Investigate Monthly Revenue & Customer Trends
 - Stabilize revenue fluctuations and introduce loyalty programs or subscriptions to ensure consistent spending.  
 
 ### 3. Customer Retention
-**SQL Query**: [3_customer_retention.sql](Project\3_customer_retention.sql)
+**SQL Query**: [3_customer_retention.sql](Project/3_customer_retention.sql)
 - Calculated the total customer number for each cohort year
 - Classified customers status into 'Active' and 'Churned'
 - Computed the percentage of customers for each status per cohort year
@@ -101,3 +101,4 @@ Investigate Monthly Revenue & Customer Trends
 
 
     - Analyze churn drivers to design focused strategies for boosting long-term retention.
+
