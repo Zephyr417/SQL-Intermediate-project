@@ -1,4 +1,4 @@
-# Intermediate SQL - Sales Analysis
+# Customers Behavior Analysis - SQL,Python
 
 ## Overview
 Using contoso_100k dataset, a sample dataset simulating a company's sales data, to analyze customer behavior, customer groups, retention, and lifetime value to improve customer retention and maximize revenue.
@@ -101,4 +101,5 @@ Investigate Monthly Revenue & Customer Trends
 
 
     - Analyze churn drivers to design focused strategies for boosting long-term retention.
+
 
